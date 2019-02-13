@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+html {
+  font-size: 10px;
+  background: url(https://images.unsplash.com/photo-1487640228478-7a32e30a9e40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1{
+  text-align: center;
+  color:#fff;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  position:relative;
+  top:40px;
+}
+
+p{
+  text-align: center;
+  color:#fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  position:relative;
+  top:40px;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 66vh;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  bottom:70px;
+}
+
+.key {
+  border: .3rem solid white;
+  border-radius: 20px;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.2);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(0.8);
+  border-color: #c797f4;
+  box-shadow: 0 0 1rem #c797f4;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #decbb8;
+}
